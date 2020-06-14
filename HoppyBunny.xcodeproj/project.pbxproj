@@ -17,6 +17,9 @@
 		2905EE94248EAE2500E7AEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2905EE92248EAE2500E7AEBB /* LaunchScreen.storyboard */; };
 		2905EE9F248EAE2500E7AEBB /* HoppyBunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EE9E248EAE2500E7AEBB /* HoppyBunnyTests.swift */; };
 		2905EEAA248EAE2600E7AEBB /* HoppyBunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEA9248EAE2600E7AEBB /* HoppyBunnyUITests.swift */; };
+		29FE96242495B92900CF691A /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 29FE96232495B92800CF691A /* Hero.sks */; };
+		29FE96262495BE0500CF691A /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE96252495BE0500CF691A /* CGFloat+Extensions.swift */; };
+		29FE96282495C9CA00CF691A /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 29FE96272495C9CA00CF691A /* Obstacle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		2905EEA5248EAE2600E7AEBB /* HoppyBunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoppyBunnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2905EEA9248EAE2600E7AEBB /* HoppyBunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoppyBunnyUITests.swift; sourceTree = "<group>"; };
 		2905EEAB248EAE2600E7AEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FE96232495B92800CF691A /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
+		29FE96252495BE0500CF691A /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		29FE96272495C9CA00CF691A /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +111,11 @@
 			children = (
 				2905EE83248EAE2100E7AEBB /* AppDelegate.swift */,
 				2905EE85248EAE2100E7AEBB /* GameScene.sks */,
+				29FE96272495C9CA00CF691A /* Obstacle.sks */,
+				29FE96232495B92800CF691A /* Hero.sks */,
 				2905EE87248EAE2100E7AEBB /* Actions.sks */,
 				2905EE89248EAE2100E7AEBB /* GameScene.swift */,
+				29FE96252495BE0500CF691A /* CGFloat+Extensions.swift */,
 				2905EE8B248EAE2100E7AEBB /* GameViewController.swift */,
 				2905EE8D248EAE2100E7AEBB /* Main.storyboard */,
 				2905EE90248EAE2500E7AEBB /* Assets.xcassets */,
@@ -241,8 +250,10 @@
 				2905EE8F248EAE2100E7AEBB /* Main.storyboard in Resources */,
 				2905EE86248EAE2100E7AEBB /* GameScene.sks in Resources */,
 				2905EE91248EAE2500E7AEBB /* Assets.xcassets in Resources */,
+				29FE96242495B92900CF691A /* Hero.sks in Resources */,
 				2905EE94248EAE2500E7AEBB /* LaunchScreen.storyboard in Resources */,
 				2905EE88248EAE2100E7AEBB /* Actions.sks in Resources */,
+				29FE96282495C9CA00CF691A /* Obstacle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +280,7 @@
 			files = (
 				2905EE8A248EAE2100E7AEBB /* GameScene.swift in Sources */,
 				2905EE8C248EAE2100E7AEBB /* GameViewController.swift in Sources */,
+				29FE96262495BE0500CF691A /* CGFloat+Extensions.swift in Sources */,
 				2905EE84248EAE2100E7AEBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
